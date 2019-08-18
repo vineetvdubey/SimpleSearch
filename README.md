@@ -8,13 +8,15 @@ A naive directory indexing program. It indexes all the files in the directory pr
 Inside the sbt console, use
 
 ```
- runMain project.driver.Main folder
+sbt
+> runMain project.driver.Main folder
  ```
  
  Alternatively,
  
 ```
-run folder
+sbt
+> run folder
 ```
 
 Here, *folder* represent the directory path that contains the text files to be indexed and searched.
