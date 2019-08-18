@@ -17,4 +17,4 @@ Inside the sbt console, use
 run folder
 ```
 
-Here, *folder* represent the directory that contains the text files to be indexed and searched.
+Here, *folder* represent the directory path that contains the text files to be indexed and searched.
