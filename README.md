@@ -1,6 +1,6 @@
 # SimpleSearch
 
-A naive directory indexing program. It indexes all the files in the directory provides a search function.
+A naive directory indexing program. It indexes all the files in the directory and also provides a search function.
 
 
 > Steps to run
