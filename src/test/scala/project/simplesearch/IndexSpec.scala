@@ -19,9 +19,9 @@ class IndexSpec extends FlatSpec with PrivateMethodTester {
     output should contain theSameElementsAs expected
   }
   it should "remove all non alphanumeric characters and return all words delimited by space as a set of strings" in {
-    val input = "\"My name is Bond\", he said, \"James Bond!\"."
+    val input = "\"My name is Bond\", he said, \"Agent:007-James Bond!\"."
     val output = Index.indexLine(input)
-    val expected = Set("my", "name", "is", "bond", "he", "said", "james")
+    val expected = Set("my", "name", "is", "bond", "he", "said", "agent", "007", "james")
     output should contain theSameElementsAs expected
   }
 
