@@ -5,7 +5,7 @@ A naive directory indexing program. It indexes all the files in the directory an
 At the current state, the indexing is very basic and limited to maintaining a Set of all the alphanumeric words encountered in the file. A search is made against this index set to determine a search score that indicates the number of search tokens that are matched.
 
 
-###Steps to run
+### Steps to run
 
 Inside the sbt console, use
 
